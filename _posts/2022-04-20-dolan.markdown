@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Dolan"
+preview: assets/images/dolan/design.png
+---
+
+![Picture 1]({{ site.baseurl}}/assets/images/dolan/guy.png)
+![Picture 2]({{ site.baseurl}}/assets/images/dolan/design.png)
+
+Gooby's bset freind.
