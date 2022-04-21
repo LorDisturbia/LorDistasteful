@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Anxiety"
+preview: assets/images/anxiety/design.png
+---
+
+When you feel the boss fight music but there's not boss around.
+
+![Picture 1]({{ site.baseurl}}/assets/images/anxiety/guy.png)
+![Picture 2]({{ site.baseurl}}/assets/images/anxiety/design.png)
