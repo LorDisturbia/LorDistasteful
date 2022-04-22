@@ -129,6 +129,10 @@ $shirt-background-color: rgba(255, 221, 221, 0.3);
 
     box-shadow:
       0 0 .1em .05em $neon-color;
+
+    img {
+      filter: drop-shadow(0px 0px 10px $shirt-background-color);
+    }
     
     &:hover {
         border: 1px solid $fg-color;
@@ -142,11 +146,12 @@ $shirt-background-color: rgba(255, 221, 221, 0.3);
             text-shadow:
               0 0 .2em $fg-color;
           }
+
+    img {
+      filter: drop-shadow(0px 0px 10px $fg-color);
+    }
     }
 }
 
 .preview-panel {
-  img {
-    filter: drop-shadow(0px 0px 10px $shirt-background-color);
-  }
 }
