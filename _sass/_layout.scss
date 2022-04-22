@@ -4,14 +4,17 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #150220;
 }
 
 .wrapper .container {
   max-width: 80rem;
+  margin-top: 10px;
 }
 
-$bg-color: #2b1165;
+$bg-color: #2F034F;
 $fg-color: #f54171;
+$neon-color: #fdf;
 
 $bg-gradient: linear-gradient(
  180deg,
@@ -66,6 +69,20 @@ $fg-gradient: linear-gradient(
  transform: translatex(.1rem);
 }
 
+.divider {
+  background-color: $neon-color;
+  height: 2px;
+  width: 100%;
+  // margin-top: -1px;
+  position: absolute;
+  // overflow: visible;
+  // bottom: -5px;
+  box-shadow:
+    0 0 .8em .1em $neon-color,
+    0 0 .20em $neon-color,
+    0 0 10em $neon-color;
+}
+
 @keyframes glitch {
  to {
   clip-path: polygon(0 calc(100% - .5em), 100% calc(100% - .5em), 0 100%, 0 100%)
@@ -74,11 +91,11 @@ $fg-gradient: linear-gradient(
 
 .tagline {
   position: absolute;
-  color: white;
+  color: $neon-color;
   text-shadow:
-    0 0 .1em #ffe,
-    0 0 .5em #ffe,
-    0 0 1em #ffe;
+    0 0 .1em $neon-color,
+    0 0 .5em $neon-color,
+    0 0 1em $neon-color;
 }
 
 .sun {
@@ -185,6 +202,9 @@ $fg-gradient: linear-gradient(
 
 .post-title {
     display: block;
+    color: $neon-color;
+    text-shadow:
+      0 0 .2em $neon-color;
 }
 
 /**
@@ -201,7 +221,7 @@ $fg-gradient: linear-gradient(
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $neon-color;
     margin: 2rem 0;
     padding: 2rem 0;
 }
@@ -210,6 +230,7 @@ $fg-gradient: linear-gradient(
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    color: $neon-color;
 }
 
 /**
@@ -218,7 +239,10 @@ $fg-gradient: linear-gradient(
 .preview-panel {
     padding: 1rem;
     box-sizing: border-box;
-    border: 1px solid $color-initial;
+    border: 1px solid $neon-color;
+
+    box-shadow:
+      0 0 .1em .05em $neon-color;
     
     &:hover {
         border: 1px solid $grey-color-light;
