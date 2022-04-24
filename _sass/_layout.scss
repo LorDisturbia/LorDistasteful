@@ -1,21 +1,27 @@
 /**
  * Site header
  */
-body {
-  margin: -50px 0;
-  padding: 0;
-  background-color: #150220;
-}
-
-.wrapper .container {
-  max-width: 80rem;
-  margin-top: -50px;
-}
 
 $bg-color: #150220;
 $fg-color: #f54171;
 $neon-color: #fdf;
 $shirt-background-color: rgba(255, 221, 221, 0.3);
+
+body {
+  margin: 0px 0;
+  padding: 0;
+  background-color: $bg-color;
+}
+
+.wrapper .container {
+  margin-top: -20px;
+  padding: 0 10%;
+
+  .row {
+    margin-bottom: 30px;
+    gap: 20px;
+  }
+}
 
 .site-header {
   text-align: center;
@@ -34,14 +40,14 @@ $shirt-background-color: rgba(255, 221, 221, 0.3);
 
 .tagline {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
+  width: 100%;
   transform: translateX(-50%);
-  font-size: 2.8vw;
+  font-size: 4.5vw;
   color: $neon-color;
   text-shadow:
     0 0 .1em $neon-color,
-    // 0 0 .5em $bg-color,
     0 0 .5em $neon-color,
     0 0 1em $neon-color;
 
@@ -53,21 +59,6 @@ $shirt-background-color: rgba(255, 221, 221, 0.3);
     0 0 1em $neon-color;
 
   }
-}
-
-
-.divider {
-  background-color: $neon-color;
-  height: 2px;
-  width: 100%;
-  // margin-top: -1px;
-  position: absolute;
-  // overflow: visible;
-  // bottom: -5px;
-  box-shadow:
-    0 0 .8em .1em $neon-color,
-    0 0 .20em $neon-color,
-    0 0 10em $neon-color;
 }
 
 .navbar {
@@ -151,7 +142,4 @@ $shirt-background-color: rgba(255, 221, 221, 0.3);
       filter: drop-shadow(0px 0px 10px $fg-color);
     }
     }
-}
-
-.preview-panel {
 }
