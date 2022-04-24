@@ -6,5 +6,5 @@ preview: assets/images/dolan/design.png
 
 Gooby's bset freind.
 
-![Picture 1]({{ site.baseurl}}/assets/images/dolan/guy.png)
+![Picture 1]({{ site.baseurl}}/assets/images/dolan/person.png)
 ![Picture 2]({{ site.baseurl}}/assets/images/dolan/design.png)
