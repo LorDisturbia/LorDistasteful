@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Noodle"
+preview: assets/images/noodle/design.png
+---
+
+Don't be hungry.
+
+![Picture 1]({{ site.baseurl}}/assets/images/noodle/person.png)
+![Picture 2]({{ site.baseurl}}/assets/images/noodle/design.png)
