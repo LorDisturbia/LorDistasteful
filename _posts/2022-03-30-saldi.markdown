@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Saldi 20%"
+preview: assets/images/saldi/design.png
+---
+
+Literally the last shirt in the shop.
+
+![Picture 1]({{ site.baseurl}}/assets/images/saldi/person.png)
+![Picture 2]({{ site.baseurl}}/assets/images/saldi/design.png)
