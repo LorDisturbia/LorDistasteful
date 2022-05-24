@@ -6,5 +6,5 @@ preview: assets/images/anxiety/design.png
 
 When you constantly feel the boss-fight music but there are no enemies in sight.
 
-![Picture 1]({{ site.baseurl}}/assets/images/anxiety/guy.png)
+![Picture 1]({{ site.baseurl}}/assets/images/anxiety/person.png)
 ![Picture 2]({{ site.baseurl}}/assets/images/anxiety/design.png)
