@@ -44,6 +44,10 @@ body {
   overflow: hidden;
 }
 
+.site-footer {
+  color: $neon-color;
+}
+
 .tagline {
   position: absolute;
   top: 45%;
@@ -79,6 +83,10 @@ body {
 .post-nav {
     text-align: center;
     padding: 1rem;
+
+    a {
+      color: #9F16A1;
+    }
 }
 
 .post-title {
@@ -86,6 +94,10 @@ body {
     color: $neon-color;
     text-shadow:
       0 0 .2em $neon-color;
+}
+
+.post-content {
+  color: $neon-color;
 }
 
 /**
